@@ -20,3 +20,16 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+/* =============  Fondo de tarjeta =============*/
+
+/* ============= Media Queries para pantalla chica  =============*/
+
+@media (max-width:768px) {
+    #body-tarjeta {
+        width: 90% !important;
+    }
+}
+
+
+
