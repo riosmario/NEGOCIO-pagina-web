@@ -33,16 +33,39 @@ body {
 }
 
 .texto {
-    width: 50%;
     text-align: center;
     margin: 50px;
+    width: 50%;
 }
 
-.img-mapa {
-    padding: 5%;
-}
+.wrapper {
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+
 
 /* ============= Media Queries para pantalla chica  =============*/
+
+
+
+@media (max-width: 999px) {
+
+    .texto {
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+        width: 100%;
+    }
+    
+
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+}
 
 @media (max-width:768px) {
     #body-tarjeta {
@@ -61,19 +84,18 @@ body {
         flex-wrap: wrap;
         justify-content: center !important;
     }
-}
 
-@media (max-width: 1200px) {
     #local {
         flex-wrap: wrap;
         padding-top: 30px;
     }
 
-    .wrapper {
-        width: 90%;
-        margin: auto;
+    .mapa {
+        margin: 0px 10px 0px 10px;
     }
+
 }
+
 
 
 
