@@ -23,6 +23,25 @@ body {
 
 /* =============  Fondo de tarjeta =============*/
 
+/* =============  Mapa =============*/
+
+#local {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+}
+
+.img-mapa {
+    padding: 5%;
+}
+
 /* ============= Media Queries para pantalla chica  =============*/
 
 @media (max-width:768px) {
@@ -41,6 +60,18 @@ body {
     .icono-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
     }
 }
 
