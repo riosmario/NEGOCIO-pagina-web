@@ -21,7 +21,11 @@ body {
     font-weight: bold;
 }
 
-/* =============  Fondo de tarjeta =============*/
+/* =============  Quienes somos =============*/
+
+.quienes {
+    width: 90%;
+}
 
 /* =============  Mapa =============*/
 
