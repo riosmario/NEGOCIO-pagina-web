@@ -34,8 +34,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .texto {
@@ -98,10 +98,6 @@ body {
     #local {
         flex-wrap: wrap;
         padding-top: 30px;
-    }
-
-    .mapa {
-        margin: 0px 10px 0px 10px;
     }
 
 }
