@@ -29,8 +29,16 @@ body {
 
 /* =============  Destacados =============*/
 
- 
+ #imagenes-destacados {
+    width: 180px;
+    height: 250px;
+    border: 2px solid green;
+    padding: 2px;
+ }
 
+ p .subtitulo-destacados {
+    font-weight:900;
+ }
 /* =============  Mapa =============*/
 
 #local {
