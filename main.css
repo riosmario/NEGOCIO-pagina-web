@@ -87,6 +87,7 @@ body {
         flex-wrap: wrap;
         padding-top: 30px;
     }
+
 }
 
 @media (max-width:768px) {
