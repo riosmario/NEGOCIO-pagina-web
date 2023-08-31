@@ -114,4 +114,19 @@ body {
 
 }
 
+/* ============= pié de página  =============*/
 
+.pie-pagina {
+    width: 100%;
+    background-color: #0A141D;
+}
+
+.pie-pagina grupo-1 {
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px;
+}
