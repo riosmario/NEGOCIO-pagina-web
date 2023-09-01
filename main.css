@@ -74,6 +74,12 @@ body {
     padding: 20px;
 }
 
+/* ===== Medios de paago =======*/
+
+#medios img {
+    width: 20%;
+}
+
 /* ============= Media Queries para pantalla chica  =============*/
 
 
@@ -115,6 +121,10 @@ body {
     #local {
         flex-wrap: wrap;
         padding-top: 30px;
+    }
+
+    #medios img {
+        width: 40%;
     }
 
 }
