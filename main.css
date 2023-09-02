@@ -80,6 +80,14 @@ body {
     width: 20%;
 }
 
+/* ===== Terminos y privacidad =======*/
+
+.terminos {
+    text-decoration: none;
+    font-size: small;
+    color: gray;
+}
+
 /* ============= Media Queries para pantalla chica  =============*/
 
 
