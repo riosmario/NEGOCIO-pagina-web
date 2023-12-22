@@ -21,6 +21,7 @@ body {
     font-weight: bold;
 }
 
+
 /* =============  Quienes somos =============*/
 
 .quienes {
@@ -33,6 +34,7 @@ body {
 
 /* =============  Destacados =============*/
 
+/*
  #imagenes-destacados {
     width: 180px;
     height: 250px;
@@ -43,6 +45,8 @@ body {
  p .subtitulo-destacados {
     font-weight:900;
  }
+*/
+
 /* =============  Mapa =============*/
 
 #local {
@@ -65,6 +69,19 @@ body {
         margin: auto;
     }
 
+.alineado {
+    text-align: center;
+    padding: 15px;
+}
+
+.conozca > div > p {
+    text-align: justify;
+    width: 70%;
+}
+
+.centro {
+    text-align: center;
+}
 
 /* =============  seccion de iconos =============*/
 
@@ -88,6 +105,19 @@ body {
     color: gray;
 }
 
+
+.contactanos {
+    font-size: 30px;
+}
+
+#imagenes-destacados {
+    height: 300px;
+}
+
+.whatsapp {
+    width: 7%;
+    margin-right: 7px;
+}
 /* ============= Media Queries para pantalla chica  =============*/
 
 
@@ -108,7 +138,7 @@ body {
 
 }
 
-@media (max-width:768px) {
+@media (min-width:768px)  {
     #body-tarjeta {
         width: 90% !important;
     }
@@ -118,9 +148,10 @@ body {
         text-align: center;
     }
 
+
 }
 
-@media (max-width: 576px) {
+@media (max-width: 680px) and (max-width:767px) {
     .icono-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
@@ -135,6 +166,14 @@ body {
         width: 40%;
     }
 
+    .contactanos {
+        font-size: 90%;
+    }
+
+    .conozca > div > p {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 
